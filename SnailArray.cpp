@@ -2,9 +2,9 @@
 
 int main(void)
 {
-	int arrlen; //배열 크기  
+	int arrlen; //n*n배열의 n값
 	
-	scanf("%d", &arrlen); //배열 크기 입력 받음  
+	scanf("%d", &arrlen); //n*n배열의 n값 입력 받음  
 	
 	int arr[arrlen][arrlen]={0}; //배열 0으로 초기화  
 	
@@ -20,7 +20,7 @@ int main(void)
 			scanf("%d", &arr[i][j]);		//(a>0)조건은 편의상 넣은 것이며, 다른 조건으로 대체 가능  
 			count++;
 		} //가로로 오른쪽 방향으로 채우는 반복문  
-		
+	
 		if(count>=num) //count가 2중 배열의 크기인 n*n을 넘으면 while문 탈출 
 			break;
 			
