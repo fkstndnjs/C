@@ -20,7 +20,7 @@ const char* Show(int num) //0, 1, 2 정수 중에 한 개를 인자로 받으면 그에 따라 바
 	}
 }
 
-void GameResult(int my, int com) //나와 컴퓨터의 대결 결과를 출력하는 함수 
+void GameResult(int my, int com) //나와 컴퓨터의 대결 결과를 출력하는 함수
 {
 	if(my==com)
 	{
