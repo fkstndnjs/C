@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void Show(int (*arr)[4]) //2중 배열을 인자로 받아서 출력하는 함수 
+void Show(int (*arr)[4]) //2중 배열을 인자로 받아서 출력하는 함수
 {
 	for(int i=0; i<4; i++)
 	{
