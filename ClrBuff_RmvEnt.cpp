@@ -10,7 +10,7 @@ void RmvEnt(char* str) //배열을 꽉 채우지 않은 경우에 마지막에 입력되는 enter값�
 {
 	int num=strlen(str);
 	
-	str[num-1]=0; //strlen함수를 이용하면 널 문자 전까지의 길이가 반환됨, 따라서 그 값에서 1을 빼면 enter값이 있는 배열의 인덱스값이므로 거기에 널문자를 삽입 
+	str[num-1]=0; //strlen함수를 이용하면 널 문자 전까지의 길이가 반환, 하지만 배열의 인덱스는 0부터 시작이므로 -1을 해줘야 enter값이 저장되어 있는 인덱스임 
 }
 
 int main(void)
