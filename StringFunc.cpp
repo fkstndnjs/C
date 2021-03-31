@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-void ClrBuff(char* str) //배열을 꽉 채워서 입력을 받는데 입력할 때 배열의 길이를 초과할 경우를 대비하는 함수 
+void ClrBuff(char* str) //배열을 꽉 채워서 입력을 받는데 입력할 때 배열의 길이를 초과할 경우를 대비하는 함수
 {
 	while(getchar()!='\n'); //enter를 만날 때까지 입력 버퍼에 저장된 값을 읽어들여 입력 버퍼를 초기화함 
 }
