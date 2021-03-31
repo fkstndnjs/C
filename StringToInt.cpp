@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-//A15#43 1+5+4+3
 
 int main(void)
 {

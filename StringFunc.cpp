@@ -13,7 +13,9 @@ int main(void)
 	int num=strlen(str1);
 	
 	strncpy(str3, str1, num-1);
+
 	strcat(str3, str2);
+	
 	fputs(str3, stdout);
 	
 	return 0;

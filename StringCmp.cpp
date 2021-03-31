@@ -54,6 +54,7 @@ int main(void)
 		puts("같습니다");
 	else
 		puts("다릅니다"); 
+		
 	return 0;
 }
 	
