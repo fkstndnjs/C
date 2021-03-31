@@ -23,8 +23,6 @@ int main(void)
 	
 	printf("%d %d\n", pos2.xpos, pos2.ypos);
 	
-	printf("%d, %d\n", pos1.xpos-pos2.xpos, pos1.ypos-pos2.ypos);
-	
 	num1= pos1.xpos-pos2.xpos;
 	num2= pos1.ypos-pos2.ypos;
 	

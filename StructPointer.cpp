@@ -13,6 +13,7 @@ int main(void)
 	
 	(*ptr).xpos+=4;
 	(*ptr).ypos+=5;
+	
 	printf("%d, %d", ptr->xpos, ptr->ypos);
 	
 	return 0;

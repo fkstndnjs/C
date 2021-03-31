@@ -32,7 +32,7 @@ int main()
 		RmvEnt(man[i].jumin);
 	
 		scanf("%d", &man[i].info);
-		EmtBuff(); //이걸 안해주면 scanf를 입력하고 난 다음에 enter값이 입력 버퍼에 남아있어서 fgets함수가 읽어들임 
+		EmtBuff(); //이걸 안해주면 scanf를 입력하고 난 다음에 enter값이 입력 버퍼에 남아있어서 fgets함수가 읽어들임
 	}
 	
 	printf("\n");

@@ -10,7 +10,7 @@ void RmvEnt(char* str)
 
 int main(void)
 {
-	char str[10]={0}; //0으로 초기화 안할경우 쓰레기값이 저장됨 
+	char str[10]={0}; //0으로 초기화 안할경우 쓰레기값이 저장됨
 	int total=0;
 	
 	fgets(str, 10, stdin);

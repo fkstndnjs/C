@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-void RmvEnt(char* str)//배열에 enter값을 제외시키는 함수 
+void RmvEnt(char* str)//배열에 enter값을 제외시키는 함수
 {
 	int num=strlen(str);
 	str[num-1]=0;

@@ -20,11 +20,9 @@ int main(void)
 	RmvEnt(str2);
 	
 	strcpy(str3, str1);
-	
 	puts(str3);
 	
 	strcat(str3, str2);
-	
 	puts(str3);
 
 	return 0;
