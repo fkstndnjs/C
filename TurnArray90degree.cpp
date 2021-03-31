@@ -13,7 +13,7 @@ void Show(int (*arr)[4]) //2중 배열을 인자로 받아서 출력하는 함수
 	printf("\n");
 }
 
-void Swap(int (*arr)[4]) //90도 회전 함수 
+void Swap(int (*arr)[4]) //90도 회전 함수
 {
 	/* //프로토타입 
 		for(int i=0; i<3; i++)

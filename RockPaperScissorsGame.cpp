@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-int win, lose, draw; //게임의 결과를 출력하는 함수에서도 접근이 가능하게 전역변수로 선언 
+int win, lose, draw; //게임의 결과를 출력하는 함수에서도 접근이 가능하게 전역변수로 선언
 
-const char* Show(int num) //0, 1, 2 정수 중에 한 개를 인자로 받으면 그에 따라 바위, 가위, 보 중 하나를 리턴하는 함수 
+char* Show(int num) //0, 1, 2 정수 중에 한 개를 인자로 받으면 그에 따라 바위, 가위, 보 중 하나를 리턴하는 함수 
 {
 	switch(num)
 	{

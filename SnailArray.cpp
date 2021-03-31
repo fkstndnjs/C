@@ -6,7 +6,7 @@ int main(void)
 	
 	scanf("%d", &arrlen); //n*n배열의 n값 입력 받음  
 	
-	int arr[arrlen][arrlen]={0}; //배열 0으로 초기화  
+	int arr[arrlen][arrlen]={0}; //배열 0으로 초기화
 	
 	int i=0, j=0; //배열 접근을 위한 i, j 변수  
 	int a=0; //한 번 겉을 쭉 채운 과정을 거친 후, 다음 반복부터는 1씩 작아진 for문의 조건식 안에서 반복하기 위한 변수 
