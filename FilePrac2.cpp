@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	FILE* fp1=fopen("BLOND.jpg", "rb");
+	FILE* fp1=fopen("abu.jpg", "rb");
 	FILE* fp2=fopen("BLONDBLOND.jpg", "wb");
 	char str[30];
 	int num;
