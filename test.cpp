@@ -7,7 +7,7 @@ int main(void)
 	char str2[30];
 	printf("%s", str);
 	
-	strcat(str2, str, sizeof(str2));
+	strncat(str2, str, sizeof(str2));
 	
 	printf("%s", str2);
 	
