@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void)
+int main(int argc, char* argv[])
 {
-	FILE* fp=fopen("text.txt", "rt");
+	FILE* fp=fopen(argv[1], "rt");
 	char str[100]={0};
 	int acount=0;
 	int pcount=0;
