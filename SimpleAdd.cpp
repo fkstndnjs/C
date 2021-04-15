@@ -2,7 +2,9 @@
 
 int main(void)
 {
-	3+4;
-
+	int num;
+	num=20;
+	prnitf("%d", num);
+	
 	return 0;
 }
