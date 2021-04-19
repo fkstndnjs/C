@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int num=2; //1은 제외하고 2부터 시작하는 정수값을 위한 num 변수 
+	int num=2; //1은 제외하고 2부터 시작하는 정수값을 위한 num 변수
 	int count2=0;
 	
 	for(num; num<100; num++)

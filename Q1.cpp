@@ -4,7 +4,7 @@ int main(void)
 {
 	int num;
 	
-	scanf("%d", &num); //변수 num에 정수 1개 입력 받음 
+	scanf("%d", &num); //변수 num에 정수 1개 입력 받음
 	
 	printf("%x, %X", num, num); //a, A 출력 
 	

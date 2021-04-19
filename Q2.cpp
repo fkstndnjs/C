@@ -14,7 +14,7 @@ int main(void)
 		num2=temp;
 	}
 	
-	for(int i=num1; i<=num2; i++) //num1부터 num2까지 구구단 출력 
+	for(int i=num1; i<=num2; i++) //num1부터 num2까지 구구단 출력
 	{
 		for(int j=1; j<10; j++)
 		{
