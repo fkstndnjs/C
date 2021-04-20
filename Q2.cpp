@@ -7,7 +7,7 @@ int main(void)
 	
 	scanf("%d %d", &num1, &num2); //num1과 num2에 출력할 구구단의 시작과 끝을 순서에 관계없이 입력 받음
 	
-	if(num1>num2) //num1이 더 크면 num1과 num2에 값을 바꿈 
+	if(num1>num2) //num1이 더 크면 num1과 num2에 값을 바꿈
 	{
 		temp=num1;
 		num1=num2;

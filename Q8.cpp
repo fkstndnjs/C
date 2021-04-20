@@ -15,6 +15,5 @@ int main(void)
 	scanf("%d", &num);
 	
 	printf("%d", Func(num));
-	
 	return 0;
 }

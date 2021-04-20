@@ -15,7 +15,7 @@ int main(void)
 				count++;
 		}
 		
-		if(count<3) //나눗셈이 끝나고 for문을 빠져나와서, count값이 3보다 작으면(즉, 2면) 소수라는 뜻이므로 그 때의 num값을 출력 
+		if(count<3) //나눗셈이 끝나고 for문을 빠져나와서, count값이 3보다 작으면(즉, 2면) 소수라는 뜻이므로 그 때의 num값을 출력
 			printf("%d ", num);
 		else //아니면 다시 조건문으로 
 			continue;

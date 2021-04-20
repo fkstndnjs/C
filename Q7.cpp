@@ -21,7 +21,7 @@ int main(void)
 			if(check>num) //만약에 2를 곱했는데 num(입력받은 값)보다 커지면 k의 최솟값이 이미 나왔다는 것이므로 ... 
 				break; //반복문을 탈출한다 
 				
-			k++; //k++를 if(check>num)보다 앞에 두면 check가 num보다 커졌는데도 2의 k+1승이 되므로 if문 뒤에 넣었다 
+			k++; //k++를 if(check>num)보다 앞에 두면 check가 num보다 커졌는데도 2의 k+1승이 되므로 if문 뒤에 넣었다
 		}
 	}
 	
