@@ -1,15 +1,20 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
+
+void ClearBuffer(void)
+{
+	while(getchar()!='\n');
+}
 
 int main(void)
 {
-	char str[30]={"hello"};
-	char str2[30];
-	printf("%s", str);
+
+	char str1[20]="12345w123";
+	char str2[20];
+	char str3[5];
 	
-	strncat(str2, str, sizeof(str2));
-	
-	printf("%s", str2);
+	printf("%d", atoi(str1));
 	
 	return 0;
+	
 }
