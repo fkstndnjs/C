@@ -8,13 +8,10 @@ struct point
 
 int main(void)
 {
-	struct point arr[3];
+	struct point pos={10,20};
+	struct point* ptr=&pos;
 	
-	for(int i=0; i<3; i++)
-		scanf("%d %d", &arr[i].xpos, &arr[i].ypos);
-	
-	for(int i=0; i<3; i++)
-		printf("%d %d", arr[i].xpos, arr[i].ypos);
+	printf("%d, %d", (*ptr).xpos, ptr->xpos);
 	
 	return 0;
 }
