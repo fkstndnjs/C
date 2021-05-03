@@ -2,12 +2,17 @@
 
 int main(void)
 {
-	FILE* fp=fopen("simple.txt", "wt");
+	FILE * src = fopen("text.txt", "rt");
+	FILE * des = fopen("test.txt", "wt");
+	char str[20];
 	
-	fputc('A', fp);
-	fputc('B', fp);
-	fputs("My name is Hong \n", fp);
-	fputs("Your name is Yoon \n", fp);
-	fclose(fp);
-	return 0;
+	while(fgets(str, sizeof(str), src)!=NULL)
+		fputs(str, des);
+	
+	if(feof(src)!=0)
+		puts("파일 복사 완료");
+	
+	fclose(src);
+	fclose(des); 
+	
 }

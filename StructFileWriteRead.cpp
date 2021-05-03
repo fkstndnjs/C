@@ -9,19 +9,18 @@ typedef struct
 
 int main(void)
 {
-	FILE* fp;
-	Friend m1;
-	Friend m2;
+	FILE * fp;
+	Friend f1;
+	Friend f2;
 	
 	fp=fopen("friend.bin", "wb");
-	printf("이름, 성별, 나이 순 입력: ");
-	scanf("%s %c %d", m1.name, &(m1.sex), &(m1.age));
-	fwrite((void*)&m1, sizeof(Friend), 1, fp);
+	scanf("%s %c %d", f1.name, &(f1.sex), &(f1.age));
+	fwrite((void*)&f1, sizeof(Friend), 1, fp);
 	fclose(fp);
 	
 	fp=fopen("friend.bin", "rb");
-	fread((void*)&m2, sizeof(Friend), 1, fp);
-	printf("%s %c %d \n", m2.name, m2.sex, m2.age);
+	fread((void*)&f2, sizeof(Friend), 1, fp);
+	printf("%s %c %d", f2.name, f2.sex, f2.age);
 	fclose(fp);
 	
 	return 0;

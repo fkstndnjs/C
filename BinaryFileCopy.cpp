@@ -2,16 +2,10 @@
 
 int main(void)
 {
-	FILE* src=fopen("src.bin", "rb");
-	FILE* des=fopen("dst.bin", "wb");
+	FILE * src=fopen("abu.jpeg", "rb");
+	FILE * des=fopen("abu2.jpeg", "wb");
 	char buf[20];
 	int readCnt;
-	
-	if(src==NULL || des==NULL)
-	{
-		puts("파일오픈 실패");
-		return -1;
-	}
 	
 	while(1)
 	{
@@ -27,10 +21,8 @@ int main(void)
 			}
 			else
 				puts("파일복사실패");
-				
-			break;
+				break;
 		}
-		
 		fwrite((void*)buf, 1, sizeof(buf), des);
 	}
 	
