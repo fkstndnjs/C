@@ -1,20 +1,24 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
-
-void ClearBuffer(void)
-{
-	while(getchar()!='\n');
-}
 
 int main(void)
 {
-
-	char str1[20]="12345w123";
-	char str2[20];
-	char str3[5];
+	char str[30];
 	
-	printf("%d", atoi(str1));
+	scanf("%s", str);
+	int z='0', n='9';
+	int num=strlen(str);
+	int total=0;
+	
+	for(int i=0; i<num; i++)
+	{
+		printf("%d, %c\n", str[i], str[i]);
+		if(str[i]>=z && str[i]<=n)
+			total+=str[i]-48;
+	}
+	
+	printf("total: %d", total);
 	
 	return 0;
-	
 }
