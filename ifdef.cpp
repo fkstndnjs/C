@@ -8,4 +8,4 @@ int main(void)
 	printf("%d", STNUM(10, 65, 175));
 	
  	return 0;
-}
+}8u
