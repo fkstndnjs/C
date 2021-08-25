@@ -6,6 +6,6 @@ int main(void)
 	
 	printf("%o %#o \n", num1, num1);
 	printf("%x %#x %#X\n", num2, num2, num2);
-	
+
 	return 0;
 }
