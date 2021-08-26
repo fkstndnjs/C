@@ -34,4 +34,4 @@ int main(void)
 	printf("%d, %d", *maxPtr, *minPtr);
 	
 	return 0;
-}]][[
+}
