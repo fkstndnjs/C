@@ -4,6 +4,7 @@ int main(void)
 {
 	int ch;
 	int A='A', Z='Z', a='a';
+	
 	ch=getchar();
 	
 	if('A'<=ch && ch<='Z')

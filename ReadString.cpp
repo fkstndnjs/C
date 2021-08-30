@@ -1,21 +1,14 @@
 #include <stdio.h>
 
-char* Read(void)
-{
-	char name[30];
-	printf("What: ");
-	gets(name);
-	return name;
-}
-
 int main(void)
 {
-	char* name1;
+	char str[6];
+	int i;
 	
-	for(int i=0; i<5; i++)
+	for(i=0; i<3; i++)
 	{
-		name1=Read();
-		printf("%p\n", name1);
+		fgets(str, sizeof(str), stdin);
+		printf("Read %d: %s \n", i+1, str);
 	}
 	
 	return 0;
