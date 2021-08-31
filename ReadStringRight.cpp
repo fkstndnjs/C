@@ -1,30 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-char* ReadUserName(void)
+char* Func(void)
 {
-	char* name = (char*)malloc(sizeof(char)*30);
-	printf("¿Ã∏ß: ");
-	gets(name);
-	return name;
+	char* ptr = (char*)malloc(sizeof(char)*30);
+	gets(ptr);
+	return ptr;
 }
 
 int main(void)
 {
-	char* name1;
-	char* name2;
+	char * ptr1;
+	char * ptr2;
 	
-	name1=ReadUserName();
-	printf("%s \n", name1);
+	ptr1=Func();
+	printf("%s", ptr1);
 	
-	name2=ReadUserName();
-	printf("%s \n", name2);
+	ptr2=Func();
+	printf("%s", ptr2);
 	
-	printf("%s \n", name1);
-	printf("%s \n", name2);
-	
-	free(name1);
-	free(name2);
+	free(ptr1);
+	free(ptr2);
 	
 	return 0;
 }
