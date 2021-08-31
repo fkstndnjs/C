@@ -3,14 +3,22 @@
 int main(void)
 {
 	int ch, i;
-	FILE* fp=fopen("data.txt", "rt");
+
+	FILE * fp = fopen("data.txt", "rt");
 	
-	for(i=0; i<2; i++)
+	if(fp==NULL)
 	{
-		ch=fgetc(fp);
-		printf("%c, %d \n", ch, ch);
+		puts("파일오픈 실패!");
+		return -1;
+	}
+	
+	for(int i=0; i<3; i++)
+	{
+	   ch=fgetc(fp);
+	   putchar(ch);
 	}
 	
 	fclose(fp);
+	
 	return 0;
 }
