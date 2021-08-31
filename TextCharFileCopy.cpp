@@ -13,7 +13,7 @@ int main(void)
 	
 	while((ch=fgetc(src))!=EOF)
 		fputc(ch, dst);
-		
+	
 	if(feof(src)!=0)
 		puts("파일복사 완료!");
 	else
